@@ -19,8 +19,8 @@ class Ideone
 			else if (newnum<=lowest)
             		lowest=newnum;
 		}
-		System.out.print(highest+"\t");
-		System.out.println(lowest);
+		System.out.print(lowest+"\t");
+		System.out.println(highest);
 	}
 }
 	
