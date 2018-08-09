@@ -21,9 +21,9 @@ class Ideone
     	Scanner sc=new Scanner(System.in);
     	int n=sc.nextInt();
         if (isPowerOfTwo(n))
-            System.out.println("Yes");
+            System.out.println("yes");
         else
-            System.out.println("No");
+            System.out.println("no");
  
        
     }
