@@ -5,9 +5,13 @@ class Ideone
 	{
 		Scanner sc=new Scanner(System.in);
 		int num1=sc.nextInt();
-		int num2=sc.nextInt();
-		int sum=num1+num2;
-		if(sum%2==0)
+		int count=0;
+		for(int i=1;i<=num1;i++)
+		{
+				if(num1%i==0)
+				count++;
+		}
+		if(count==2)
 			System.out.println("even");
 		else
 			System.out.println("odd");
