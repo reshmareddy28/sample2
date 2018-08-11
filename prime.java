@@ -12,8 +12,8 @@ class Ideone
 				count++;
 		}
 		if(count==2)
-			System.out.println("even");
+			System.out.println("yes");
 		else
-			System.out.println("odd");
+			System.out.println("no");
 	}
 }
