@@ -5,7 +5,9 @@ class Ideone
 	{
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
-		n *=2;
-		System.out.println(n);
+		if(n%7==0)
+		System.out.println("yes");
+		else
+		System.out.println("no");
 	}
 }
